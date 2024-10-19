@@ -1,0 +1,46 @@
+header{
+    height: 100vh;
+    background-image:url('../assets/tło/tło.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1E90FF; 
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFD700; 
+    border-bottom: 2px solid #FFD700; 
+    margin-left: 20px;
+}
+.navbar-nav .auta-link:hover,
+.navbar-nav .rezerwacja-link:hover {
+    color: #FFD700; 
+    box-shadow: 0 0 10px white; 
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: white; 
+}
+
+header button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    box-shadow: 0 0 10px white; 
+}
