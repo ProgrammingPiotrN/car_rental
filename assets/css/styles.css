@@ -11,7 +11,7 @@ html, body {
 
 header {
     height: 80vh;
-    background-image: url('../assets/tło/tło.jpg');
+    background-image: url('../images/tło/tło.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
