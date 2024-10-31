@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* Header Section */
+header {
+    background-image: url('../images/tło/tło.jpg'); /* Ensure you have this image in the correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+header .navbar {
+    padding: 1rem 2rem;
+}
+
+header .navbar img {
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header .btn {
+    flex: 1;
+    min-width: 150px;
+}
+
+header .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+    transition: all 0.3s ease;
+}
+
+header .btn-outline-light:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Available & Unavailable Cars Sections */
+section#available,
+section#unavailable {
+    padding: 4rem 2rem;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0.5rem 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn-primary,
+.btn-danger {
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger:disabled {
+    background-color: #e74c3c;
+}
+
+/* Reservation Form */
+section#reservation {
+    background-color: #fff;
+    padding: 4rem 2rem;
+}
+
+section#reservation h1 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+}
+
+form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form .form-control {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header .btn {
+        width: 90%;
+        min-width: 0;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
